@@ -1,0 +1,149 @@
+{
+  "id": "AstonMartinVantageGT3",
+  "displayName": "Aston Martin Vantage AMR GT3 Evo",
+  "manufacturer": "Aston Martin",
+  "notes": "Front-mid engine 4.0 V8 twin-turbo (M177), ~535 hp after BoP, Xtrac 6-speed sequential, ABS + TC.",
+  "bodyStyle": "frontEngine",
+  "bodyColor": [
+    0.0,
+    0.36,
+    0.27
+  ],
+  "accentColor": [
+    0.75,
+    0.95,
+    0.2
+  ],
+  "dimensions": {
+    "length": 4.7,
+    "width": 2.05,
+    "height": 1.22,
+    "wheelbase": 2.705,
+    "trackFront": 1.72,
+    "trackRear": 1.7,
+    "frontOverhang": 1.05
+  },
+  "mass": {
+    "mass": 1330,
+    "weightDistributionFront": 0.48,
+    "cgHeight": 0.43,
+    "inertiaScale": 0.85
+  },
+  "engine": {
+    "layout": "4.0 V8 twin-turbo",
+    "torqueRpm": [
+      1000,
+      2000,
+      3000,
+      4000,
+      5000,
+      5500,
+      6000,
+      6500,
+      7000,
+      7300
+    ],
+    "torqueNm": [
+      350,
+      520,
+      650,
+      690,
+      700,
+      690,
+      660,
+      600,
+      520,
+      400
+    ],
+    "idleRpm": 1500,
+    "limiterRpm": 7300,
+    "inertia": 0.2,
+    "frictionTorque": 30,
+    "frictionPerRpm": 0.007,
+    "throttleResponse": 10
+  },
+  "gearbox": {
+    "ratios": [
+      2.92,
+      2.13,
+      1.69,
+      1.38,
+      1.17,
+      1.0
+    ],
+    "reverseRatio": 2.9,
+    "finalDrive": 3.43,
+    "shiftTime": 0.06,
+    "efficiency": 0.92,
+    "clutchMaxTorque": 1200
+  },
+  "differential": {
+    "preload": 90,
+    "powerRamp": 0.35,
+    "coastRamp": 0.25
+  },
+  "brakes": {
+    "maxTorqueTotal": 13000,
+    "biasFront": 0.585,
+    "handbrakeTorque": 2500
+  },
+  "suspensionFront": {
+    "wheelRate": 125000,
+    "bumpDamping": 6800,
+    "reboundDamping": 9500,
+    "travel": 0.1,
+    "antiRollRate": 70000,
+    "bumpStopRate": 900000
+  },
+  "suspensionRear": {
+    "wheelRate": 115000,
+    "bumpDamping": 6400,
+    "reboundDamping": 9000,
+    "travel": 0.1,
+    "antiRollRate": 45000,
+    "bumpStopRate": 900000
+  },
+  "aero": {
+    "dragArea": 0.86,
+    "downforceArea": 2.35,
+    "balanceFront": 0.41,
+    "airDensity": 1.225
+  },
+  "steering": {
+    "maxAngleDeg": 24,
+    "ackermann": 0.6,
+    "lockToLockDeg": 540
+  },
+  "tyreFront": {
+    "inertia": 1.3,
+    "muLongitudinal": 1.78,
+    "muLateral": 1.72,
+    "peakSlipRatio": 0.1,
+    "peakSlipAngleDeg": 7.0,
+    "shapeC": 1.6,
+    "falloffE": -0.4,
+    "loadSensitivity": 0.12,
+    "nominalLoad": 4000,
+    "relaxationLength": 0.35,
+    "rollingResistance": 0.012,
+    "size": "30/68-18",
+    "radius": 0.34,
+    "width": 0.3
+  },
+  "tyreRear": {
+    "inertia": 1.45,
+    "muLongitudinal": 1.78,
+    "muLateral": 1.72,
+    "peakSlipRatio": 0.1,
+    "peakSlipAngleDeg": 7.0,
+    "shapeC": 1.6,
+    "falloffE": -0.4,
+    "loadSensitivity": 0.12,
+    "nominalLoad": 4000,
+    "relaxationLength": 0.35,
+    "rollingResistance": 0.012,
+    "size": "31/71-18",
+    "radius": 0.355,
+    "width": 0.31
+  }
+}

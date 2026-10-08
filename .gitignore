@@ -1,0 +1,32 @@
+# Unity
+RacingSim/[Ll]ibrary/
+RacingSim/[Tt]emp/
+RacingSim/[Oo]bj/
+RacingSim/[Bb]uild/
+RacingSim/[Bb]uilds/
+RacingSim/[Ll]ogs/
+RacingSim/[Uu]ser[Ss]ettings/
+RacingSim/[Mm]emoryCaptures/
+RacingSim/[Rr]ecordings/
+RacingSim/*.csproj
+RacingSim/*.sln
+RacingSim/*.slnx
+RacingSim/.vs/
+RacingSim/.idea/
+RacingSim/.vscode/
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+
+# .NET / Python
+tools/physics-test/bin/
+tools/physics-test/obj/
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db

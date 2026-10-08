@@ -1,0 +1,151 @@
+{
+  "id": "Ferrari296GT3",
+  "displayName": "Ferrari 296 GT3",
+  "manufacturer": "Ferrari",
+  "notes": "Mid-engine 2.9 V6 120deg twin-turbo, ~600 hp nominal (BoP limited), Xtrac 6-speed sequential, ABS + TC.",
+  "bodyStyle": "midEngine",
+  "bodyColor": [
+    0.8,
+    0.02,
+    0.02
+  ],
+  "accentColor": [
+    1.0,
+    0.85,
+    0.0
+  ],
+  "dimensions": {
+    "length": 4.71,
+    "width": 2.05,
+    "height": 1.15,
+    "wheelbase": 2.66,
+    "trackFront": 1.7,
+    "trackRear": 1.68,
+    "frontOverhang": 0.95
+  },
+  "mass": {
+    "mass": 1270,
+    "weightDistributionFront": 0.45,
+    "cgHeight": 0.4,
+    "inertiaScale": 0.78
+  },
+  "engine": {
+    "layout": "2.9 V6 120deg twin-turbo",
+    "torqueRpm": [
+      1500,
+      2500,
+      3500,
+      4500,
+      5500,
+      6000,
+      6500,
+      7000,
+      7500,
+      8000,
+      8300
+    ],
+    "torqueNm": [
+      290,
+      430,
+      560,
+      620,
+      650,
+      650,
+      640,
+      610,
+      565,
+      500,
+      400
+    ],
+    "idleRpm": 1600,
+    "limiterRpm": 8300,
+    "inertia": 0.16,
+    "frictionTorque": 28,
+    "frictionPerRpm": 0.006,
+    "throttleResponse": 11
+  },
+  "gearbox": {
+    "ratios": [
+      3.0,
+      2.2,
+      1.75,
+      1.43,
+      1.2,
+      1.0
+    ],
+    "reverseRatio": 3.0,
+    "finalDrive": 3.9,
+    "shiftTime": 0.05,
+    "efficiency": 0.92,
+    "clutchMaxTorque": 1150
+  },
+  "differential": {
+    "preload": 80,
+    "powerRamp": 0.3,
+    "coastRamp": 0.2
+  },
+  "brakes": {
+    "maxTorqueTotal": 12500,
+    "biasFront": 0.57,
+    "handbrakeTorque": 2500
+  },
+  "suspensionFront": {
+    "wheelRate": 120000,
+    "bumpDamping": 6400,
+    "reboundDamping": 9000,
+    "travel": 0.095,
+    "antiRollRate": 65000,
+    "bumpStopRate": 900000
+  },
+  "suspensionRear": {
+    "wheelRate": 130000,
+    "bumpDamping": 7000,
+    "reboundDamping": 9800,
+    "travel": 0.095,
+    "antiRollRate": 50000,
+    "bumpStopRate": 900000
+  },
+  "aero": {
+    "dragArea": 0.84,
+    "downforceArea": 2.45,
+    "balanceFront": 0.4,
+    "airDensity": 1.225
+  },
+  "steering": {
+    "maxAngleDeg": 23,
+    "ackermann": 0.6,
+    "lockToLockDeg": 540
+  },
+  "tyreFront": {
+    "inertia": 1.3,
+    "muLongitudinal": 1.78,
+    "muLateral": 1.72,
+    "peakSlipRatio": 0.1,
+    "peakSlipAngleDeg": 7.0,
+    "shapeC": 1.6,
+    "falloffE": -0.4,
+    "loadSensitivity": 0.12,
+    "nominalLoad": 4000,
+    "relaxationLength": 0.35,
+    "rollingResistance": 0.012,
+    "size": "30/68-18",
+    "radius": 0.34,
+    "width": 0.3
+  },
+  "tyreRear": {
+    "inertia": 1.45,
+    "muLongitudinal": 1.78,
+    "muLateral": 1.72,
+    "peakSlipRatio": 0.1,
+    "peakSlipAngleDeg": 7.0,
+    "shapeC": 1.6,
+    "falloffE": -0.4,
+    "loadSensitivity": 0.12,
+    "nominalLoad": 4000,
+    "relaxationLength": 0.35,
+    "rollingResistance": 0.012,
+    "size": "31/71-18",
+    "radius": 0.355,
+    "width": 0.31
+  }
+}
