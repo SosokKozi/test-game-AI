@@ -138,6 +138,16 @@ VS Code/Rider), чтобы проект гарантированно откры�
 | ML-Agents (`com.unity.ml-agents`) | обучение нейросетевых соперников — хорошая тема для изучения нейросетей |
 | Unity MCP ([CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp)) | управление редактором Unity из Claude Code (создание объектов, запуск, чтение логов) |
 
+## Навыки Claude Code
+
+В `.claude/skills/jev-skill-suggestion/` установлен мод **jev-skill-suggestion** (из
+[claude-code-templates](https://www.aitmpl.com)): он убирает из контекста Claude длинный список навыков и
+на каждый запрос сам подбирает не больше одного подходящего. Работает в Claude Code 2.1.287+ после того,
+как вы откроете папку проекта в `claude` и подтвердите доверие к ней. Без API-ключа используется встроенный
+классификатор Claude Code (ничего никуда не отправляется); с ключом TypeSafe или Vercel AI Gateway — модель Jev
+(тогда текст запроса и описания навыков уходят этому сервису). Команда `/jev-skill-suggestion:setup` по желанию
+скрывает навыки из списка совсем (`setup restore` — откат). Подробности — в README мода.
+
 ## Структура
 
 ```
@@ -150,6 +160,7 @@ RacingSim/                     проект Unity
 setup/install-windows.ps1      установка всего на диск F:
 tools/trackgen/                генерация трасс (приближение и OpenStreetMap+SRTM)
 tools/physics-test/            тест физики без Unity (dotnet run)
+.claude/skills/                моды и навыки Claude Code для проекта
 ```
 
 ## Если что-то не работает
