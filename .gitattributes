@@ -26,3 +26,8 @@
 
 # Чертежи-референсы небольшие — храним обычными файлами, без LFS
 art/blueprints/**/*.png -filter -diff -merge binary
+# Сгенерированные модели (по ~5 МБ) — обычными файлами, без LFS
+RacingSim/Assets/Resources/CarModels/*.fbx -filter -diff -merge binary
+art/models/**/*.fbx -filter -diff -merge binary
+art/models/**/*.blend -filter -diff -merge binary
+art/models/**/*.jpg -filter -diff -merge binary
