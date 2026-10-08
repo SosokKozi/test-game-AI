@@ -23,3 +23,6 @@
 *.wav filter=lfs diff=lfs merge=lfs -text
 *.ogg filter=lfs diff=lfs merge=lfs -text
 *.mp3 filter=lfs diff=lfs merge=lfs -text
+
+# Чертежи-референсы небольшие — храним обычными файлами, без LFS
+art/blueprints/**/*.png -filter -diff -merge binary
