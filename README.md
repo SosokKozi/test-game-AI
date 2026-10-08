@@ -140,6 +140,12 @@ VS Code/Rider), чтобы проект гарантированно откры�
 
 ## Навыки Claude Code
 
+В `.claude/skills/` лежат навыки для разработки симулятора — Claude подключает их сам по смыслу задачи
+(или вызывайте явно: `/vehicle-physics`, `/track-pipeline` и т.д.): `unity-workflow`, `vehicle-physics`,
+`car-data-gt3`, `track-pipeline`, `input-ffb`, `ai-drivers`, `race-systems`, `visuals-audio`, `sim-validation`.
+Там же через `.claude/settings.json` включён официальный плагин Unity для Claude Code (`unity@unity-agent-plugin`):
+при первом запуске `claude` в папке проекта согласитесь установить его.
+
 В `.claude/skills/jev-skill-suggestion/` установлен мод **jev-skill-suggestion** (из
 [claude-code-templates](https://www.aitmpl.com)): он убирает из контекста Claude длинный список навыков и
 на каждый запрос сам подбирает не больше одного подходящего. Работает в Claude Code 2.1.287+ после того,
